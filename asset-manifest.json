@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/free-jadi-project/static/css/main.b79df13b.css",
+    "main.js": "/free-jadi-project/static/js/main.9031336b.js",
+    "static/media/SFPRODISPLAYREGULAR.OTF": "/free-jadi-project/static/media/SFPRODISPLAYREGULAR.d1f5e6e16dd4f75c3950.OTF",
+    "index.html": "/free-jadi-project/index.html",
+    "main.b79df13b.css.map": "/free-jadi-project/static/css/main.b79df13b.css.map",
+    "main.9031336b.js.map": "/free-jadi-project/static/js/main.9031336b.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.b79df13b.css",
+    "static/js/main.9031336b.js"
+  ]
+}
