@@ -18,7 +18,7 @@ const Navbarme = () => {
     })
     return (
         <>
-            <Navbar collapseOnSelect expand="lg" bg="dark" variant="dark">
+            <Navbar className="navbar sticky-top" collapseOnSelect expand="lg" bg="dark" variant="dark">
                 <Container>
                     <Navbar.Brand ><Link className={`nav-link`} to={`home`} > React-Bootstrap </Link></Navbar.Brand>
                     <Navbar.Toggle aria-controls="responsive-navbar-nav" />

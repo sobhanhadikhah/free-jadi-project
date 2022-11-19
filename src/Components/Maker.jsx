@@ -11,7 +11,7 @@ const InfoMaker = () => {
         setUser(respone.data.data)
     }, [])
     return (
-        <div className="container  bg-dark-blue  " style={{ borderBottomLeftRadius: `10px`, borderBottomRightRadius: `10px` }} >
+        <div className="container  bg-dark-blue  " style={{ borderBottomLeftRadius: `50%`, borderBottomRightRadius: `50%`, height: `75vh` }} >
             <img src={user.avatar} className={`ma3  `} style={{ borderRadius: `50%` }} alt="img" />
             <div>
                 <h3 className="white mb3" >
@@ -21,6 +21,7 @@ const InfoMaker = () => {
                     {user.email}
                 </h3>
             </div>
+
             <Outlet />
         </div>
     );
